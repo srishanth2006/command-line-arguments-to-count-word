@@ -32,18 +32,18 @@ In last statement give the print statement.
 
 ## PROGRAM:
 ```
-Developed by : Mohamed Anas O.I
-Register no : 23008005
+#python program for getting the word count from the contents of a file using command line arguments.
+#Developed by:SRISHANTH J
+#Register number:212223240160
 import sys
-count=0
-with open(sys.argv[1],'r) as f:
-    for line in f:
-    word=line.split()
-    count+=line.(word)
-print("Word Count in File=",count)
+fp=open(sys.argv[0])
+data=fp.read()
+words=data.split()
+print("no of words",len(words))
 ```
 ### OUTPUT:
-<img width="561" alt="Screenshot 2023-12-31 184229" src="https://github.com/srishanth2006/command-line-arguments-to-count-word/assets/150319470/ed27c55a-ed6a-44d3-b3e5-10b31dcb383e">
+<img width="609" alt="Screenshot 2023-12-31 185157" src="https://github.com/srishanth2006/command-line-arguments-to-count-word/assets/150319470/3e3db687-57f0-4da4-bf40-beffb91be985">
+
 
 
 ## RESULT:
