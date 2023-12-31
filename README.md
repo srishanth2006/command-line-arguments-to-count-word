@@ -43,8 +43,7 @@ with open(sys.argv[1],'r) as f:
 print("Word Count in File=",count)
 ```
 ### OUTPUT:
-<img width="680" alt="Screenshot 2023-12-26 180626" src="https://github.com/srishanth2006/command-line-arguments-to-count-word/assets/150319470/19b8bedb-2409-4206-b8ac-549f29505bff">
-
+<img width="561" alt="Screenshot 2023-12-31 184229" src="https://github.com/srishanth2006/command-line-arguments-to-count-word/assets/150319470/ed27c55a-ed6a-44d3-b3e5-10b31dcb383e">
 
 
 ## RESULT:
